@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body, html {
+    background-color: silver;
+}
+
+header{
+    background-color:  #E5E5E5;
+    width: 100%;
+    height: 158px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+
+.logo img{
+    width: 100px;
+    justify-content: space-between;
+}
+
+.slogan p{
+    color: #0088A2;
+    justify-content: space-between;
+    width: 450px;
+    font-size: 32px;
+    font-family: 'Josefin Sans',sans-serif;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.menu input{
+    opacity: 0;
+}
+
+.menu label{
+opacity: 0;
+}
+
+.menu_box{
+    background-color: #808080 ;
+    width: 100%;
+    height: 35px ;
+    margin: 0 0 0 -40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.menu_text{
+    text-align: center;
+    width: 20%;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+
+}
+.menu_text:hover {
+    background-color: #0088A2;
+    transition: 0.8s;
+}
+
+
+.section1{
+    width: 100%;
+}
+
+.photos{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.photo {
+    width: 100%;
+    display: flex;
+    justify-content:space-around ;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+
+.photo img{
+    width: 90%;
+    margin-top: 25px;
+    position: relative;
+}
+
+.photo p {
+    font-size: 0.7em;
+    color: white;
+    font-family:  'Open Sans', sans-serif;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+
+}
+
+.text p{
+    font-size: 0.7em;
+    margin-top: 130px;
+    width: 20%;
+    text-align: center;
+    cursor: pointer ;
+
+}
+
+   #programm {
+    margin-top: 5px;
+    background-color: white;
+    width: 100%;
+    height: 730px;
+    padding-top: 5px;
+}
+
+#about h1{
+    margin-bottom: 27px;
+    color: #0088A2;;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#about img{
+    position: absolute;
+    width: 95%;
+    margin-left: 32px;
+    
+} 
+
+#about >  p > img {
+    position: absolute;
+    width:10%;
+    left: 43%;
+    margin-top: 200px;
+}
+
+.app {
+    background-color: white;
+    width: 100%;
+
+}
+
+.pro {
+    position: relative;
+    display: flex;
+    width: 90%;
+    left: 50px;
+}
+
+.apper{
+    position: absolute;
+    margin-top: 50px;
+}
+
+
+.apper img{
+    width: 300px;
+
+}
+
+.apper:first-child{
+    z-index: 1;
+}
+
+
+.apper:nth-child(2) {
+    top: 50px;
+    left:230px;
+    z-index: 2;
+}
+
+.apper:nth-child(3) {
+    left:460px;
+    z-index: 3;
+}
+
+.apper:nth-child(4) {
+    top: 50px;
+    left:690px;
+    z-index: 4;
+}
+.apper:nth-child(5) {
+    left:920px;
+    z-index: 5;
+}
+
+.project{
+    margin-top: 5px;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    padding-top:1px;
+    padding-bottom: 40px;
+}
+
+#aboutpro h2{
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Open Sans';
+    color:#0088A2;
+}
+
+#aboutpro p{
+    text-align: center;
+    width: 90%;
+    color: #707070;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.7em;
+    margin: auto;
+}
+
+.download{
+    margin-top: 5px;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    padding-top: 1px;
+}
+
+.download h2{
+    color: #0088A2;
+    text-align: center;
+    font-family: 'Open sans',sans-serif;
+    font-size: 2.5em;
+}
+
+.logotip{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.porag {
+    margin-top: 5px;
+    width: 90%;
+}
+
+.porag p{
+    color: #707070;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.5em;
+    margin-left:50px;
+}
+
+footer{
+    padding-top: 1px;
+    border-top: 2px solid yellow;
+    width: 100%;
+    height: 550px;
+    background-color: #0088A2;
+    
+}
+
+footer h2{
+    text-align: center;
+    font-size: 3em ;
+    font-family: 'josefin sans';
+    color: white;
+}
+
+.sait{
+    width: 40%;
+    margin-left:400px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.other{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.contact {
+    width: 30%;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.contact h3{
+    font-size: 1.5em;
+}
+.adress {
+    width: 30%;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.adress h3{
+    font-size: 1.5em;
+}
+
+
+.help {
+    width: 30%;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.help h3{
+    font-size: 1.5em;
+}
+
+/* Адаптивка на iphone10 */
+
+@media (max-width: 380px) {
+
+
+    header{
+        width: 100%;
+    }
+    
+    .header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .logo{
+        width: 100%;
+    }
+
+    .logo img{
+        margin-left:37% ;
+    }
+
+    .slogan{
+        width: 100%;
+    }
+
+    .slogan p{
+        width: 80%;
+        font-size: 20px;
+        margin-left: 13%;
+    }
+    
+
+    .photos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #programm{
+        width: 100%;
+        height:250px;
+    }
+
+    #programm h1{
+        font-size: 25px;
+    }
+
+    #programm img{
+        width: 85%;
+        margin-left: 8%;
+    }
+
+    .app{
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .pro{
+        width: 100%;
+    }
+
+    .apper img  {
+        width: 100px;
+       
+    }
+
+    .apper:first-child{
+        z-index: 1;
+    }
+    
+    
+    .apper:nth-child(2) {
+        top: 30px;
+        left:50px;
+        z-index: 2;
+    }
+    
+    .apper:nth-child(3) {
+        left:100px;
+        z-index: 3;
+    }
+    
+    .apper:nth-child(4) {
+        top: 30px;
+        left:150px;
+        z-index: 4;
+    }
+    .apper:nth-child(5) {
+        left:200px;
+        z-index: 5;
+    }
+    
+
+    .project{
+        width: 100%;
+        height: 200px;
+    }
+    #aboutpro h2{
+        font-size: 20px;
+    }
+
+    #aboutpro p{
+        font-size: 15px;
+
+    }
+
+    .download{
+        width: 100%;
+        height: 400px;
+    }
+
+    .download h2{
+        font-size: 20px;
+    }
+
+    .logotip{
+        width: 100%;
+        height: 100px;
+    }
+
+    .logotip img{
+        width: 30%;
+        height: 100%;
+    }
+
+    .porag p{
+        font-size: 15px;
+        margin-top: 10%;
+    }
+
+    footer{
+        width: 100%;
+        height: 300px;
+    }
+
+    footer h2{
+        font-size: 30px;
+    }
+
+    .sait{
+        width: 100%;
+        margin: 0;
+    }
+
+    .sait img{
+        width: 50px;
+    }
+
+    .other{
+        width: 100%;
+    }
+
+    .contact {
+        width: 25%;
+    }
+    .contact h3{
+        font-size: 20px;
+    }
+
+    .contact p{
+        font-size: 10px;
+    }
+
+
+    .adress {
+        width: 25%;
+    }
+    .adress h3{
+        font-size: 20px;
+    }
+
+    .adress p{
+        font-size: 10px;
+    }
+
+
+    
+    .help {
+        width: 25%;
+    }
+    .help h3{
+        font-size: 20px;
+    }
+
+    .help p{
+        font-size: 10px;
+    }
+
+
+
+
+
+    #menu_toggle{
+        opacity: 0;
+    }
+    .menu_btn{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 2;
+        opacity: 1;
+    }
+    .menu label{
+        opacity: 1;
+    }
+    .menu_btn>span,
+    .menu_btn>span::before,
+    .menu_btn>span::after{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #0088a2;
+        transition: .3s;
+        z-index: 5;
+        opacity: 1;
+    }
+    
+    .menu_btn>span::before{
+        top: -8px;
+        content: '';
+    }
+    
+    .menu_btn>span::after{
+        top: 8px;
+        content: '';
+    }
+    
+    .menu_box{
+        display: block;
+        position: fixed;
+        top: 0;
+        width: 90%;
+        height: 40%;
+        visibility: hidden;
+        margin: 0;
+        padding: 60px 0;
+        list-style: none;
+        text-align: center;
+        background-color: white;
+        box-shadow: 2px  0px 5px rgba(0, 0, 0, 2);
+        z-index: 1;
+    }
+    
+    .menu_text{
+        width: 86%;
+        display: block;
+        padding: 12px 24px;
+        color: #0088a2;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+    
+    }
+    
+    .menu_text:hover{
+        background-color: #0088a2;
+        color: white;
+    }
+    
+    #menu_toggle{
+        background: #0088a2;
+        color: white;
+    }
+    #menu_toggle:checked~.menu_btn>span{
+        transform: rotate(45deg);
+    }
+    #menu_toggle:checked~.menu_btn>span::before{
+        top: 0;
+        transform: rotate(0);
+        
+    
+    }
+    #menu_toggle:checked~.menu_btn>span::after{
+        top: 0;
+        transform: rotate(90deg);
+    }
+    
+    #menu_toggle:checked ~ .menu_box {
+        visibility: visible;
+        left: 0;
+    }
+}
